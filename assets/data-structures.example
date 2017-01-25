@@ -1,0 +1,13 @@
+{
+  :firstName "Dustan"
+  :lastName "Kasten"
+  :age 30
+  :weight 175
+  :children 2
+}
+
+{:x 0 :y 0}
+{:x 10 :y 0}
+
+[{:x 0 :y 0} {:x 10 :y 10}]
+

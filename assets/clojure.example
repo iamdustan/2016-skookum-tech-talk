@@ -1,0 +1,8 @@
+(defrecord Point [x y])
+
+(def a (Point. 0 0))
+(def b (Point. 10 0))
+
+(defn add [p1 p2]
+  (Point. (+ p1.x p2.x) (+ p1.y p2.y))
+

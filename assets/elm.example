@@ -1,0 +1,10 @@
+point =                    -- create a record
+  { x = 3, y = 4 }
+
+point.x                    -- access field
+
+add {ax, ay} {bx, by} =
+  {ax + bx, ay + ay}
+
+dist {x,y} =               -- pattern matching on fields
+  sqrt (x^2 + y^2)

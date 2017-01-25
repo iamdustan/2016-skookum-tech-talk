@@ -1,0 +1,7 @@
+data Point = Point Float Float deriving (Show)
+
+add :: Point -> Point -> Point
+add (a b) = (Point (a.x + y.x) (a.y + b.y))
+
+AddedPoint (add (Point 0 0) (Point 10 0))
+
